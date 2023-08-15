@@ -37,3 +37,15 @@ input[type="submit"] {
   background-color: rgb(195, 34, 45);
   color: yellow;
 }
+
+.panel {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.panel a {
+  color: white;
+}
